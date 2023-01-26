@@ -10,7 +10,7 @@ namespace CasaDoCodigo.Repositories
     public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
 
-        public ProdutoRepository(ApplicationContext contexto) : base(contexto) //criei um construtor que vai passa um contexto na classe base
+        public ProdutoRepository(ApplicationContext contexto) : base(contexto) //criei um construtor que vai passar um contexto na classe base
         {          
         }
 

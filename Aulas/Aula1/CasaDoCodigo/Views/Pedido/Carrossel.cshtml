@@ -44,8 +44,8 @@
                             <div class="produto-nome">@produto.Nome</div>
                             <div><h4><strong>R$ @produto.Preco</strong></h4></div>
                             <div class="text-center">
-                                <a asp-controller="pedido"
-                                   asp-action="carrinho"
+                                <a asp-action="carrinho"
+                                   asp-route-codigo="@produto.Codigo"
                                    class="btn btn-success">Adicionar</a>
                             </div>
                         </div>
